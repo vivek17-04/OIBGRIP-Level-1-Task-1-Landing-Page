@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    background-color: #e3f2fd;
+    width:100%;
+    height:500px;
+    padding:80px;
+}
+.headercontent{
+    width:50%;
+}
+.headercontent h2{
+   font-size: 45px;
+   padding: 0px 10px 10px 0px;
+}
+.hotproduct{
+    font-size: 45px;
+    color:rgb(228, 106, 7);
+}
+.headercontent h3{
+    font-size: 35px;
+    padding-bottom: 10px;
+ }
+
+ .headercontent p{
+    font-size: 15px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+ }
+ .btn{
+    padding: 15px 30px;
+    background-color: orange;
+    border-radius: 5px;
+    border:0px solid;
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+ }
+
+.headerimg{
+    width:50%
+}
+
+.headerbanner img{
+    height:100%;
+}
+
+.services{
+    margin: 20px auto;
+    
+
+}
+#servicetitle{
+    font-size: 45px;
+    text-align: center;
+    margin: 40px;
+}
+
+.services img{
+    width: 50%;
+    height:50%;
+    padding: 10px;
+}
+.services h2{
+    font-size: 18px;
+}
+.serviceitem{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+    padding: 10px 80px;
+}
+
+.serviceitem1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #e3f2fd;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.serviceitem2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #e3f2fd;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.serviceitem3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #e3f2fd;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.top-rated-product{
+    margin:0px;
+}
+.top-rated-product-title{
+    font-size: 24px;
+    width:90%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+.best-laptop-item{
+    display: flex;
+    gap:30px;
+    width:90%;
+    margin: 0px auto;
+}
+.best-laptop-card{
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 8px 15px #888888af;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 80px;
+}
+.best-laptop-card img{
+    width: 70%;
+}
+.best-laptop-card h2{
+    padding:10px;
+}
+.best-laptop-card p{
+    color:rgb(133, 122, 122);
+    padding: 5px;
+}
+.laptopprice{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.best-mobile-item{
+    display: flex;
+    gap:30px;
+    width:90%;
+    margin: 0px auto;
+}
+.best-mobile-card{
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 8px 15px #888888af;
+    text-align: center;
+    padding:10px;
+}
+.best-mobile-card img{
+    width: 70%;
+}
+.best-mobile-card h2{
+    padding:10px;
+    margin-top: 40px;
+}
+.best-mobile-card p{
+    color:rgb(133, 122, 122);
+    padding: 5px;
+}
+.laptopprice{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.latestupdate{
+    width: 50%;
+    margin: 0px auto;
+}
+#LatestUpdatetitle{
+    font-size: 45px;
+    margin: 50px 0px;
+    text-align: center;
+
+}
+
+.submitmail{
+    background-color: #e3f2fd;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 200px;
+}
+.submitmail p{
+    text-align: center;
+}
+.submitmail input{
+    padding: 15px 60px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .leftFooter > p {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+  
+  .midFooter {
+    width: 60%;
+  
+    text-align: center;
+  }
+  
+  .midFooter > h1 {
+    font-size: 4vmax;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: crimson;
+  }
+  .midFooter > p {
+    max-width: 60%;
+  
+    margin: 1vmax auto;
+  }
+  
+  .rightFooter {
+    width: 20%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter > h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.4vmax;
+    text-decoration: underline;
+  }
+  .rightFooter > a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    margin: 0.5vmax;
+  }
